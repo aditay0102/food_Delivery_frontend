@@ -18,7 +18,7 @@ function Navbar({setShowLogin}) {
   return (
     <div className='navbar'>
       <Link to="/">
-         <h1 style="color: #ff6347">
+         <h1 className="logo">
     QuickBites
 </h1>
 
