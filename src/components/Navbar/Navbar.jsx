@@ -18,7 +18,10 @@ function Navbar({setShowLogin}) {
   return (
     <div className='navbar'>
       <Link to="/">
-        QuickBites
+         <h1 style="color: #ff6347;">
+    QuickBites
+</h1>
+
       </Link>
       <ul className="navbar-menu">
         <Link to='/' onCLinkck={()=>setMenu("home")} className={menu === "home"? "active": ""} >home</Link>
