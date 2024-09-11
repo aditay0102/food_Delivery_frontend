@@ -18,7 +18,7 @@ function Navbar({setShowLogin}) {
   return (
     <div className='navbar'>
       <Link to="/">
-        <img src={assets.logo}  />
+        QuickBites
       </Link>
       <ul className="navbar-menu">
         <Link to='/' onCLinkck={()=>setMenu("home")} className={menu === "home"? "active": ""} >home</Link>
